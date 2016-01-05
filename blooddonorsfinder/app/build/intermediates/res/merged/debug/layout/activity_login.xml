@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="6.4">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.2"
+        android:scaleType="fitXY"
+        android:src="@drawable/splash_sceen"
+         />
+
+    <android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/appLogo"
+        android:layout_weight="2.8"
+        android:padding="@dimen/login_coordinatorlayout_padding">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/loginCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/login_cardview_margin_bottom"
+            android:layout_marginLeft="@dimen/login_cardview_margin_left"
+            android:layout_marginRight="@dimen/login_cardview_margin_right">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/formHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/login_headerview_height"
+                    android:background="#FF0000"
+                    android:gravity="center"
+                    android:text="LOGIN"
+                    android:textColor="#CCFFFFFF"
+                    android:textSize="@dimen/login_headerview_textsize"
+                    android:textStyle="bold" />
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/userNameTIL"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/formHeader"
+                    android:padding="@dimen/login_text_input_layout_padding">
+
+                    <EditText
+                        android:id="@+id/username"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="EmailId"
+                        android:textColor="#F46308"
+                        android:textColorHint="#F46308"
+                        android:textSize="@dimen/login_edittext_textsize" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/passwordTIL"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/userNameTIL"
+                    android:padding="@dimen/login_text_input_layout_padding">
+
+                    <EditText
+                        android:id="@+id/password"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:textColor="#F46308"
+                        android:textColorHint="#F46308"
+                        android:textSize="@dimen/login_edittext_textsize" />
+                </android.support.design.widget.TextInputLayout>
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/loginCard"
+            android:src="@drawable/ic_done_white_24dp"
+            app:borderWidth="0dp"
+            app:layout_anchor="@+id/loginCard"
+            app:layout_anchorGravity="bottom|right|end" />
+    </android.support.design.widget.CoordinatorLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:orientation="horizontal"
+        android:weightSum="20.1">
+
+        <TextView
+            android:id="@+id/signup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:text="SignUp"
+            android:textColor="#FF0000" />
+<!--
+        android:textSize="@dimen/login_actionbutton_textsize"-->
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:background="#d8006800" />
+<!--
+        android:layout_marginBottom="@dimen/login_parent_bottom_margin"
+-->
+
+        <TextView
+            android:id="@+id/forgotPassword"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:text="Forgot Password?"
+            android:textColor="#FF0000"
+/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/Pranavi/StudioProjects/blooddonorsfinder/app/src/main/res/layout/activity_login.xml -->

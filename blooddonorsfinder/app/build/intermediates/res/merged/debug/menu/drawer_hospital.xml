@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- group with single selected item so only one item is highlighted in the nav menu -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_item_1"
+            android:icon="@drawable/ic_error_red"
+            android:title="@string/donors_in_list"/>
+        <item
+            android:id="@+id/drawer_item_2"
+            android:icon="@drawable/ic_launcher"
+            android:title="@string/donors_in_map"/>
+        <item
+            android:id="@+id/drawer_item_3"
+            android:icon="@drawable/ic_done_white_24dp"
+            android:title="@string/sent_request"/>
+
+        <item
+            android:id="@+id/drawer_item_4"
+            android:icon="@drawable/ic_done_white_24dp"
+            android:title="@string/accepted_request"/>
+    </group>
+
+</menu><!-- From: file:/Users/Pranavi/StudioProjects/blooddonorsfinder/app/src/main/res/menu/drawer_hospital.xml -->
