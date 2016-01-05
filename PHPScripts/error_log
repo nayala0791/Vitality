@@ -1,7 +1,0 @@
-[24-May-2015 12:38:50 UTC] PHP Fatal error:  Call to undefined function mssqli_num_rows() in /home/chidamabaradmin/public_html/webservice/japaapp/ChangePassword.php on line 19
-[24-May-2015 12:58:59 UTC] PHP Fatal error:  Call to undefined function randomPasswordGenerator() in /home/chidamabaradmin/public_html/webservice/japaapp/ChangePassword.php on line 11
-[02-Oct-2015 12:02:24 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/chidamabaradmin/public_html/webservice/blooddonorfinder/SendRequestToDonor.php on line 23
-[02-Oct-2015 12:11:57 UTC] PHP Fatal error:  Class 'GCM' not found in /home/chidamabaradmin/public_html/webservice/blooddonorfinder/SendRequestToDonor.php on line 27
-[02-Oct-2015 13:52:48 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/chidamabaradmin/public_html/webservice/blooddonorfinder/Login.php on line 173
-[02-Oct-2015 13:57:27 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/chidamabaradmin/public_html/webservice/blooddonorfinder/Login.php on line 186
-[02-Oct-2015 13:58:42 UTC] PHP Fatal error:  Cannot use object of type mysqli_result as array in /home/chidamabaradmin/public_html/webservice/blooddonorfinder/Login.php on line 186
