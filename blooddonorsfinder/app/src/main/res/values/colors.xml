@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="tabsScrollColor">#99000000</color>
+    <color name="drawer_item_text">#00fff0</color>
+    <color name="dark_transparent">#99000000</color>
+</resources>

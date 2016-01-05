@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="speciality">
+        <item>Cardiologist</item>
+        <item>Orthopediac</item>
+    </string-array>
+    <string-array name="miles_master">
+        <item>Select Radius In Miles</item>
+        <item>5-10 miles</item>
+        <item>10-15 miles</item>
+        <item>15-20 miles</item>
+        <item>Reset</item>
+
+    </string-array>
+</resources>
